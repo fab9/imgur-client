@@ -12,6 +12,10 @@ module.exports = React.createClass({
         return (
             <div className="row">
                 <a className="thumbnail" width="150" height="150">
+                    <div className="caption">
+                        <h4>asdf adfsad</h4>
+                    </div>
+
                     <img src={link} className="img-responsive" />
                 </a>
             </div>
